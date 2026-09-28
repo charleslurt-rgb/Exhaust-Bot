@@ -1,0 +1,19 @@
+{
+  "name": "customizable-discord-bot",
+  "version": "1.0.0",
+  "description": "A multi-server Discord bot with a web dashboard and SQLite configuration storage.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy:commands": "node src/deploy-commands.js"
+  },
+  "engines": { "node": ">=22.12.0" },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}
